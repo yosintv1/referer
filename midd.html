@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Redirecting...</title>
+</head>
+<body>
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const customId = urlParams.get('url');
+    const newurl = `https://yosintv2.github.io/ads/foot.html?url=https://ytvlive.pages.dev/ak?m=${customId}`;
+    window.location.replace(newurl);
+</script>
+</body>
+</html>
